@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+body{
+
+	background-image: url(pic/hey.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+}
+
+
+
+.div{
+	
+	background-color:;
+	height: 5px;
+	margin: 30px 80px 0px 80px;
+	
+
+}
+.header{
+    box-shadow: 5px 10px 8px hsla(0, 0%, 0% ,0.7) ;
+	background-color: hsla(0, 0%, 0% ,0.8) ;
+	padding: 30px;
+	margin: 0px 80px 0px 80px;
+
+	}
+
+section{
+	height: 500px;
+	background: hsla(0, 0%, 0% ,0.3);
+	box-shadow: 5px 10px 8px hsla(0, 0%, 0% ,0.7) ;
+
+}
+	footer{
+		background: hsla(0, 0%, 0% ,0.3);
+		color: #cfcfcf;
+		box-shadow: 5px 10px 8px hsla(0, 0%, 0% ,0.7) ;
+		height: 100px;
+	}
+
+
+
+ul, li,a{
+
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+
+
+}
+
+a{
+	
+	margin: 20px 29px 20px 29px;
+	color: grey;
+	font-size: 20px;
+
+	
+}
+
+a:hover{
+color: yellow;
+	}
+
+.CV {
+	color: white;
+	text-decoration: overline;
+	font-size: 21px;
+	
+
+}
+
+/*
+.search{
+	padding: 10px;
+	position: relative;
+	width: 220px;
+	margin: 0px 0px 0px 20px;
+	background-color: hsla(0, 0%, 0% ,0.3) ;
+	color: white;
+	font-size: 14px;
+
+ 
+}
+
+.logo{
+	
+	position: relative;
+	top: 10px;
+	margin: 0px 0px 0px 320px;
+}*/
+
+/*.footer{
+	
+	bottom: 100px;
+	position: relative;
+	top: 734px;
+	 padding: 60px;
+	background-color: black;
+	margin: 0px;
+
+}*/
+
+
+
+.bar1, .bar2, .bar3{
+	background-color:  yellow;
+	height: 3px;
+	width: 30px;
+	margin:7px 10px;
+    padding:0.3px;
+	transition: 0.5s;
+}
+.mation .bar1{
+	-webkit-transform: rotate(-45deg) translate(-10px, 10px);
+    transform: rotate(-45deg) translate(-10px, 10px);
+    background-color: green;
+}
+
+.mation .bar2{
+	opacity: 0;
+}
+.mation .bar3{
+	 -webkit-transform: rotate(45deg) translate(-9px, -6px);
+    transform: rotate(45deg) translate(-9px, -6px);
+    background-color: blue;
+}
+
+
+
+.menu{
+	position: absolute;
+	left: 100px;
+	top: 59px;
+	cursor: pointer;
+}
+
+.logo {
+	
+	position: absolute;
+	right: 120px;
+	top: 90px;
+}
+
+.bar1:hover{
+	background-color: yellow;
+}
+.bar2:hover{
+	background-color: red;
+}
+.bar3:hover{
+	background-color: blue;
+}
